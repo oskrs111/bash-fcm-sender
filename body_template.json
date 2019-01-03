@@ -1,0 +1,14 @@
+{
+  "data":{
+    "title":"New Text Message",
+    "image":"https://firebase.google.com/images/social.png",
+    "message":"##MESSAGE##"
+  },
+  "notification" : {
+     "body" : "##MESSAGE##",
+     "title": "##MESSAGE##",
+     "click_action": "FCM_PLUGIN_ACTIVITY",
+     "sound" : "default"
+ },
+  "to":"/topics/##TOPIC##"
+}
